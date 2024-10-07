@@ -1,0 +1,62 @@
+ body {
+    background-color: greenyellow;
+ }
+
+ 
+ 
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    from { border-color: transparent; }
+    to { border-color: black; }
+}
+
+header {
+    background-color: #00ffff; /* Warna background header */
+    text-align: center;
+    padding: 10px; /* Menambahkan padding pada teks */
+    margin: 20px auto; /* Menambahkan margin atas dan bawah */
+    width: fit-content; /* Ukuran background menyesuaikan teks */
+    border-radius: 10px; /* Membuat sudut background menjadi melengkung */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid;
+    width: 0;
+    animation: typing 3s steps(20) 1s forwards, blink 0.5s step-end infinite alternate;
+}
+
+img {
+    border: 5px solid black; /* Menambahkan border hitam dengan ketebalan 5px */
+    border-radius: 10px; /* Membuat sudut border melengkung */
+    transform: rotate(20deg); /* Memiringkan gambar sebesar 20 derajat */
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: rotate(-20deg);
+}
+
+.pic2 {
+    transform: rotate(-20deg);
+}
+
+.pic2:hover {
+    transform: rotate(20deg);
+}
+
+ul {
+    color: aqua;
+}
+
+p {
+    font-size: 20px;
+}
+

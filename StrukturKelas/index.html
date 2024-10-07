@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10PPLG2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="apa.js"></script>
+    <script src=""></script>
+</head>
+<body>
+    <header>
+        <nav> 
+            <div class="tombolSIdebar">
+            <p>s</p>
+            </div>
+            <div class="dalamnav">
+                <a href="#">Home</a>
+                <a href="#">AboutMyClass</a>
+                <a href="#">NameOfClass</a>
+            </div>
+    </nav>
+    <div class="kosongan">
+
+    </div>
+    <div class="sideBar" id="SideBar">
+        <h1 class="hai">hai Warga PPLG 2</h1>
+        <ul>
+            <li><p><a href="#" class="side">ig kelas</a></p></li>
+            <li><p><a href="#" class="side">chat dengan ketua kelas</a></p></li>
+            <li><p><a href="#" class="side">chat dengan admin</a></p></li>
+            <li><p><a href="#" class="side">anggota kelas</a></p></li>
+            <li><p><a href="#" class="side">peraturan kelas</a></p></li>
+        </ul>
+    </div>
+    <h1>SELAMAT DATANG DI 10 PPLG 2</h1>
+   </header>
+   <label for="inputText">Masukkan teks:</label>
+    <input type="text" id="inputText" placeholder="Masukkan nama">
+    <button onclick="isiVariabel()">Simpan</button>
+    <h1 id="hasil" class="nama"></h1>
+    <h1 id="hasil2" class="nama">HALLO WARGA DI PPLG 2</h1>
+
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="17agustusan.jpg" alt="img1">
+        </div>
+        <div class="slide fade">
+            <img src="pic3.jpg" alt="img2">
+        </div>
+        <div class="slide fade">
+            <img src="fotoRameRame.jpg" alt="img3">
+        </div>
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    
+   <article>
+    <h2>Struktur Kelas</h2>
+    <div>
+        <div class="wali-kelas">
+            <img src="hello.png" alt="pakrifaldi">
+        </div>
+        <div class="ketua">
+            <p>KETUA KELAS</p>
+            <img src="hello.png"  alt="alvin" class="alvin">
+        </div>
+        <div class="wakil">
+            <p>WAKIL KETUA KELAS</p>
+            <img src="hello.png" alt="afifah" class="afifah">
+        </div>
+        <div class="sekte1">
+            <p>SEKERTARIS 1</p>
+            <img src="hello.png" alt="Bagus" class="bagus">
+        </div>
+        <div class="sekte2">
+            <P>SEKERTARIS 2</P>
+            <img src="hello.png" alt="Azka" class="azka">
+        </div>
+        <div class="bendahara">
+            <p>BENDAHARA 1</p>
+            <img src="hello.png" alt="keysa" class="keysa">
+        </div>
+        <div class="sekber">
+            <p>SEKSI KEBERSIHAN</p>
+            <img src="hello.png" alt="Aksa" class="aksa">
+        </div>
+        <div class="sekka">
+            <p>SEKSI KEAMANAN</p>
+            <img src="hello.png" alt="Fuzan" class="Fuzan">
+        </div>
+    <H2>PJ MAPEL</H2> 
+    </div>
+    <button onclick="PJMAPEL()">for more info</button>
+        <ul id="pjmapel">
+            <li>
+                <p>Sejarah</p>
+                <p>BAGUS NUSWANTORO</p></li>
+            <li>
+                <p>Sriyanti</p>                
+                <p>PANGGALIH B.R</p></li>
+            <li>
+                <p>PJOK</p >
+                <p>BAGUS NUSWANTORO</p></li>
+            <li>
+                <p>IF</p>
+                <p>SILVESTER OCTAVIANO A.M.A</p>
+            </li>
+            <li>
+                <p>PPKN</p>
+                <p>ENGGAK ADA</p>
+            </li>
+            <li>
+                <p>Matematika</p>
+                <p>BAGUS NUSWANTORO</p>
+            </li>
+            <li>
+                <p>BTQ</p>
+                <p>BAGUS NUSWANTORO</p>
+            </li>
+            <li>
+                <p>dicky</p>
+                <p>PANGGALIH B.R</p>
+            </li>
+            <li>
+                <p>PAI</p>
+                <p>TIDAK ADA</p>
+            </li>
+            <li>
+                <p>Bahasa indonesia</p>
+                <p>tidak ada</p>
+            </li>
+            <li>
+                <P>Ipas</P>
+                <P>Tidak Ada</P>
+            </li>
+            <li>
+                <p>Bimbingan Konseling</p>
+                <p>Tidak Ada</p>
+            </li>
+            </ul>
+
+
+    <p>ISI KELAS</p>
+    <button href="Jadwal.html">JADWAL</button>
+    <button onclick="fotosiswa()">foto siswa</button>
+    <br>
+    <div class="fotoDoang" id="fotoDoangBg">
+        <img src="pic1.jpg" alt="pic1" class="pic1">
+        <img src="fotoRameRame.jpg" alt="pic2" class="pic2">
+        <img src="pic3.jpg" alt="pic3" class="pic3">
+    </div>
+   </article>
+   <footer>
+    <div class="report">
+        
+    </div>
+   </footer>
+</body>
+</html>
+<style>
+    /* Container untuk slideshow */
+    .slideshow-container {
+        position: relative;
+        max-width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    /* Setiap slide (gambar) */
+    .slide {
+        display: none;
+        width: 100%;
+        height: 800px; /* Atur tinggi slide */
+    }
+
+    /* Style untuk gambar */
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Tombol navigasi sebelah kiri dan kanan */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Tombol sebelah kiri */
+    .prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* Tombol sebelah kanan */
+    .next {
+        right: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    /* Animasi transisi */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+</style>
+
+<script>
+    var slideIndex = 0;
+    showSlides(slideIndex);
+
+    // Fungsi untuk mengubah slide
+    function changeSlide(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Fungsi untuk menampilkan slide
+    function showSlides(n) {
+        var slides = document.getElementsByClassName("slide");
+
+        if (n >= slides.length) { slideIndex = 0 }
+        if (n < 0) { slideIndex = slides.length - 1 }
+
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex].style.display = "block";
+    }
+
+    // Fungsi auto-slide setiap 3 detik
+    setInterval(function() {
+        changeSlide(1);
+    }, 5000); // Set interval 3000ms (3 detik)
+</script>
