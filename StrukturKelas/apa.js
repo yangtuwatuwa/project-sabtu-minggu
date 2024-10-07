@@ -16,7 +16,7 @@ function isiVariabel() {
             }
             
 }
-function PJMAPEL() {
+function PJMAPEL() {   bvjv
     var text = document.getElementById("pjmapel");
     if (text.style.display === "none")
         {
