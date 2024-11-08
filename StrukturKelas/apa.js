@@ -1,4 +1,4 @@
-function isiVariabel() {
+    function isiVariabel() {
     var inputText = document.getElementById('inputText').value;
 
     document.getElementById('hasil').innerText = "hai"+" "+ inputText ;
@@ -16,7 +16,7 @@ function isiVariabel() {
             }
             
 }
-function PJMAPEL() {   bvjv
+function PJMAPEL() {
     var text = document.getElementById("pjmapel");
     if (text.style.display === "none")
         {
@@ -34,5 +34,16 @@ function fotosiswa(){
         foto.style.display ="block"
     } else {
         foto.style.display ="none"
+    }
+}
+
+function side() {
+    var siide = document.getElementById("SideBar")
+
+    if(siide.style.display === "none")
+    {
+        siide.style.display ="block"
+    } else {
+        siide.style.display ="none"
     }
 }

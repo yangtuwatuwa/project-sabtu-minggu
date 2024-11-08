@@ -1,0 +1,192 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 15px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: arial;
+    font-size: 15px;
+
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 130px; 
+}
+
+header ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: arial;
+    font-size: 15px;
+}
+
+img.apa{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.pa{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.ap{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.image{
+    margin-right: 20px;
+    display: inherit;
+}
+
+main img{
+    width: 100%;
+    height: 450px;
+    cursor: pointer;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+}
+
+main nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+main nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: arial;
+    font-size: 20px;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+div .jam{
+    width: 40rem;
+    height: 40rem;
+}
+
+.contain .deskripsi{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    flex-direction: column;
+}
+
+.kosongan{
+    height: 80px;
+}
+
+.gam {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ;
+}
+
+.gam img{
+    width: 250px;
+    height: 250px;
+}
+
+footer{
+    margin-top: 60px;
+    height: 380px;
+    background-color: black;
+}
+
+footer .kaki{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    
+}
+
+footer .kaki  {
+    color: white;
+}
+
+footer .kaki h6{
+    font-size: 23px;
+    margin-bottom: 13px;
+}
+
+footer .kaki p{
+    font-size: 12px;
+    margin-top: 10px;
+    color: gray;
+}
+
+footer .kaki p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    color: gray;
+}

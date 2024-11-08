@@ -1,0 +1,271 @@
+main article h1{
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+main h2{
+  display: flex;
+  justify-content: center;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+main article img {
+  width: 400px;
+  
+  background-color: #fff;
+}
+.text{
+  float: right;
+  background-color: #3B3030;
+  width: 60%;
+} 
+
+main article .text p{
+  font-size: 25px;
+  font-family:  monospace;
+}
+
+main article .text p .silver{
+  text-decoration: underline;
+  font-size: 30px;
+  background-color:rgb(255, 0, 0);
+}
+
+main article .text p .afifah{
+  text-decoration: underline;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+}
+
+main article .text p .Pakrivaldi{
+  text-decoration: underline;
+  font-size: 30px;
+  color: black;
+  background-color: yellow;
+}
+
+
+main .Struktur .wali-kelas{
+  background-color: #3a2828;
+}
+main .Struktur .wali-kelas .nama{
+  float: right;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .wali-kelas .nama h1 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+main .Struktur .wali-kelas h3{
+  display:flex ;
+  justify-content: center;
+}
+
+main .Struktur .ketua{
+  background-color: #3a2828;
+}
+main .Struktur .ketua .nama{
+  float: left;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .ketua .nama h1 {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+main .Struktur .ketua h3{
+  display:flex ;
+  justify-content: center;
+}
+/*wakil ketua*/
+main .Struktur .wakil{
+  background-color: #3a2828;
+}
+main .Struktur .wakil .nama{
+  float: right;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .wakil .nama h1 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+main .Struktur .wakil h3{
+  display:flex ;
+  justify-content: center;
+}
+/*nama sekertaris */
+main .Struktur .sekte1 {
+  background-color: #3a2828;
+}
+
+main .Struktur .sekte1 .nama{
+  float: left;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .sekte1 .nama h1 {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+main .Struktur .sekte1 h3{
+  display:flex ;
+  justify-content:center;
+}
+/*sekertaris2 */
+
+main .Struktur .sekte2 {
+  background-color: #3a2828;
+}
+
+main .Struktur .sekte2 .nama{
+  float: right;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .sekte2 .nama h1 {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+main .Struktur .sekte2 h3{
+  display:flex ;
+  justify-content:center;
+}
+/*bendahara*/
+
+main .Struktur .bendahara {
+  background-color: #3a2828;
+}
+
+main .Struktur .bendahara .nama{
+  float: left;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .bendahara .nama h1 {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+main .Struktur .bendahara h3{
+  display:flex ;
+  justify-content:center;
+}
+/*seksi kebersihan */
+
+main .Struktur .sekber {
+  background-color: #3a2828;
+}
+
+main .Struktur .sekber .nama{
+  float: right;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .sekber .nama h1 {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+main .Struktur .sekber h3{
+  display:flex ;
+  justify-content:center;
+}
+
+/*seksi keamanan*/
+
+main .Struktur .sekka {
+  background-color: #3a2828;
+}
+
+main .Struktur .sekka .nama{
+  float: left;
+  padding: 10PX;
+  width: 80%;
+  height: 220px;
+}
+main .Struktur .sekka .nama h1 {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+main .Struktur .sekka h3{
+  display:flex ;
+  justify-content:center;
+}
+.Struktur h2 {
+  text-decoration: underline;
+  
+  font-size: 10rem;
+}
+.Struktur .tab{
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+}
+hr{
+  border: 5px solid #ffffff;
+}
+
+main .penanggung{
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+main .penanggung .ForMoreInfo{
+  border: none;
+  overflow: none;
+  background-color: #3a2828;
+  color: white;
+  margin: 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+/*album kelas */
+.album-kelas .TextInContainer{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+.album-kelas button{
+  background-color: #3a2828;
+  border: none;
+  padding :20px;
+  border-radius: 20px;
+  width: 300px;
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.album-kelas .fotoNyaSiswa{
+  display: flex ;
+  justify-content: center;
+
+}
+
+.album-kelas .HELLNAH{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

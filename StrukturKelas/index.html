@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+    
+    <head>
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>10PPLG2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="shortcut icon" href="fotonya/logo.png" type="image/x-icon">
     <script src="apa.js"></script>
     <script src=""></script>
 </head>
 <body>
+    
     <header>
         <nav> 
             <div class="tombolSIdebar">
-            <p>s</p>
+            <button onclick="side()" class="ButtonSide">side</button>
             </div>
             <div class="dalamnav">
                 <a href="#">Home</a>
                 <a href="#">AboutMyClass</a>
-                <a href="#">NameOfClass</a>
+                <a href="#" class="paling-kiri">NameOfClass</a>
             </div>
     </nav>
     <div class="kosongan">
-
     </div>
     <div class="sideBar" id="SideBar">
         <h1 class="hai">hai Warga PPLG 2</h1>
@@ -34,227 +37,228 @@
             <li><p><a href="#" class="side">peraturan kelas</a></p></li>
         </ul>
     </div>
+    
     <h1>SELAMAT DATANG DI 10 PPLG 2</h1>
    </header>
-   <label for="inputText">Masukkan teks:</label>
-    <input type="text" id="inputText" placeholder="Masukkan nama">
-    <button onclick="isiVariabel()">Simpan</button>
-    <h1 id="hasil" class="nama"></h1>
     <h1 id="hasil2" class="nama">HALLO WARGA DI PPLG 2</h1>
 
     <div class="slideshow-container">
         <div class="slide fade">
-            <img src="17agustusan.jpg" alt="img1">
+            <img src="FOTONYA/17agustusan.jpg" alt="img1">
         </div>
         <div class="slide fade">
-            <img src="pic3.jpg" alt="img2">
+            <img src="FOTONYA/pic3.jpg" alt="img2">
         </div>
         <div class="slide fade">
-            <img src="fotoRameRame.jpg" alt="img3">
+            <img src="FOTONYA/fotoRameRame.jpg" alt="img3">
         </div>
 
         <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
     <a class="next" onclick="changeSlide(1)">&#10095;</a>
     </div>
-    
-   <article>
-    <h2>Struktur Kelas</h2>
-    <div>
-        <div class="wali-kelas">
-            <img src="hello.png" alt="pakrifaldi">
-        </div>
-        <div class="ketua">
-            <p>KETUA KELAS</p>
-            <img src="hello.png"  alt="alvin" class="alvin">
-        </div>
-        <div class="wakil">
-            <p>WAKIL KETUA KELAS</p>
-            <img src="hello.png" alt="afifah" class="afifah">
-        </div>
-        <div class="sekte1">
-            <p>SEKERTARIS 1</p>
-            <img src="hello.png" alt="Bagus" class="bagus">
-        </div>
-        <div class="sekte2">
-            <P>SEKERTARIS 2</P>
-            <img src="hello.png" alt="Azka" class="azka">
-        </div>
-        <div class="bendahara">
-            <p>BENDAHARA 1</p>
-            <img src="hello.png" alt="keysa" class="keysa">
-        </div>
-        <div class="sekber">
-            <p>SEKSI KEBERSIHAN</p>
-            <img src="hello.png" alt="Aksa" class="aksa">
-        </div>
-        <div class="sekka">
-            <p>SEKSI KEAMANAN</p>
-            <img src="hello.png" alt="Fuzan" class="Fuzan">
-        </div>
-    <H2>PJ MAPEL</H2> 
-    </div>
-    <button onclick="PJMAPEL()">for more info</button>
-        <ul id="pjmapel">
-            <li>
-                <p>Sejarah</p>
-                <p>BAGUS NUSWANTORO</p></li>
-            <li>
-                <p>Sriyanti</p>                
-                <p>PANGGALIH B.R</p></li>
-            <li>
-                <p>PJOK</p >
-                <p>BAGUS NUSWANTORO</p></li>
-            <li>
-                <p>IF</p>
-                <p>SILVESTER OCTAVIANO A.M.A</p>
-            </li>
-            <li>
-                <p>PPKN</p>
-                <p>ENGGAK ADA</p>
-            </li>
-            <li>
-                <p>Matematika</p>
-                <p>BAGUS NUSWANTORO</p>
-            </li>
-            <li>
-                <p>BTQ</p>
-                <p>BAGUS NUSWANTORO</p>
-            </li>
-            <li>
-                <p>dicky</p>
-                <p>PANGGALIH B.R</p>
-            </li>
-            <li>
-                <p>PAI</p>
-                <p>TIDAK ADA</p>
-            </li>
-            <li>
-                <p>Bahasa indonesia</p>
-                <p>tidak ada</p>
-            </li>
-            <li>
-                <P>Ipas</P>
-                <P>Tidak Ada</P>
-            </li>
-            <li>
-                <p>Bimbingan Konseling</p>
-                <p>Tidak Ada</p>
-            </li>
-            </ul>
 
+    <main>
+        <article>
+            <h1>SEJARAH SINGKAT PPLG 2</h1>
+            <img src="FOTONYA/pic3.jpg" alt="">
+            <div class="text">
+                <p>kelas pplg 2 terbentuk saat tahun ajaran 2024,
+                    kelas in di ketuai oleh <span class="silver">silvester </span > dan di wakil ketua kami<span class="afifah">afifah</span>.
+                    kami memiliki 38 anak, dan wali kelas kami adalah <span class="Pakrivaldi">pak ahmad rifaldi.</span> pengembang dari web ini dalah anak-anak pplg angkatan 2027
+                    kami mempunyai teman-teman yang akur dan saling support dan menghargai. kita berdiri di atas sekolah swata yaitu YAYASAN LEO SUTRISNO smk letris indonesia 2 pamulang 
+                    semua konten dalam web ini adalah netral tidak memihak pada siapapun nama PPLG 2 merupakab akronim dari  Pengembanga Perangkat Lunak dan gim dan 2 di ambil dari urutan kelas kita yaitu kelas ke 2 atau urutab ke 2 kami 
+                    guru kami produktif kami adalah dicky fernando  sudah banyak yang kami alami di kelas pplg 2 ini puluhan project sudah kita buat, dari mulai mudah hingga yang tersusah
+               </p>
+            </div>
+        </article>
+        <h2>STRUKTUR KELAS</h2>
+        <div class="Struktur">
+            <hr>
+            <div class="wali-kelas">
+                <h3>WALI KELAS</h3>
+                <div class="nama">
+                    <h1>bapak ahmad rifaldi s.kom</h1>
+                    <p>guru smk letris indonesia 2 dan juga sebagai wali kelas 10 pplg 2 2024/2025. pak rifaldi adalah guru dari mapel informatika</p>
+                </div>
+                <img src="fotonya/hello.png" alt="pakrifaldi">
+            </div>
+            <hr>
+            <div class="ketua">
+                <h3>KETUA KELAS</h3>
+                <div class="nama">
+                    <h1>silvester oktaviano alfin manopo algak</h1>
+                    <p>ketua kelas 10 pplg 2 smk letris indonesia 2</p>
+                </div>
+                <img src="fotonya/hello.png"  alt="alvin" class="alvin">
+            </div>
+            <hr>
+            <div class="wakil">
+                <h3>WAKIL KETUA KELAS</h3>
+                <div class="nama">
+                    <h1>afifah fitri nuur faalih</h1>
+                    <p>wakil ketua kelas 10 pplg 2 letris indoneisa 2 periode 2024/2025</p>
+                </div>
+                <img src="fotonya/hello.png" alt="afifah" class="afifah">
+             </div>
+            <hr>
+            <div class="sekte1">
+                <h3>SEKERTARIS 1</h3>
+                <div class="nama">
+                    <h1>bagus nuswantoro</h1>
+                    <p>sekertaris pertama (1), di  kelas 10 pplg 2 smk letris indonesia 2</p>
+                </div>
+                <img src="fotonya/hello.png" alt="Bagus" class="bagus">
+            </div>
+            <hr>
+            <div class="sekte2">
+                <h3>SEKERTARIS 2</h3>
+                <div class="nama">
+                    <h1>azka rana junita</h1>
+                    <p>sekertaris kedua setelah mengganti ketua kelas, di kelas 10 pplg 2 smk letris indonesia 2</p>
+                    <p></p>
+                </div>
+                <img src="fotonya/hello.png" alt="Azka" class="azka">
+            </div>
+            <hr>
+            <div class="bendahara">
+                <h3>BENDAHARA</h3>
+                <div class="nama">
+                    <h1>keysa nuri nuraharani</h1>
+                    <p>bendahara kelas 10 pplg 2 smk letris indonesia 2</p>
 
-    <p>ISI KELAS</p>
-    <button href="Jadwal.html">JADWAL</button>
-    <button onclick="fotosiswa()">foto siswa</button>
-    <br>
-    <div class="fotoDoang" id="fotoDoangBg">
-        <img src="pic1.jpg" alt="pic1" class="pic1">
-        <img src="fotoRameRame.jpg" alt="pic2" class="pic2">
-        <img src="pic3.jpg" alt="pic3" class="pic3">
-    </div>
-   </article>
+                </div>
+                <img src="fotonya/hello.png" alt="keysa" class="keysa">
+            </div>
+            <hr>
+            <div class="sekber">
+                <H3>SEKSI KEBERSIHAN</H3>
+                <div class="nama">
+                    <h1>adi-aksa pratama anggoro</h1>
+                    <p>seksi kebersihan kelas 10 pplg 2 smk letris indonesia 2</p>
+                </div>
+                <img src="fotonya/hello.png" alt="Aksa" class="aksa">
+            </div>
+            <hr>
+            <div class="sekka">
+                <h3>SEKSI KEAMANAN</h3>
+                <div class="nama">
+                    <h1>muhammad fauzan arif</h1>
+                    <p>seksi keamanan  kelas 10 pplg 2 smk letris indonesia 2</p>
+
+                </div>
+                <img src="fotonya/hello.png" alt="Fuzan" class="Fuzan">
+            </div>
+            <hr>
+            <div class="pejeh">
+                <h2>PJ MAPEL</h2> 
+                <p class="tab">pencet di bawah</p>
+                
+            </div>
+            <hr>
+        </div>
+        <div class="penanggung">
+            <button onclick="PJMAPEL()" class="ForMoreInfo">for more info</button>
+            <ul id="pjmapel">
+                <li>
+                    <p>Sejarah</p>
+                    <p>BAGUS NUSWANTORO</p></li>
+                <li>
+                    <p>Sriyanti</p>                
+                    <p>PANGGALIH B.R</p></li>
+                <li>
+                    <p>PJOK</p >
+                    <p>BAGUS NUSWANTORO</p></li>
+                <li>
+                    <p>IF</p>
+                    <p>SILVESTER OCTAVIANO A.M.A</p>
+                </li>
+                <li>
+                    <p>PPKN</p>
+                    <p>ENGGAK ADA</p>
+                </li>
+                <li>
+                    <p>Matematika</p>
+                    <p>BAGUS NUSWANTORO</p>
+                </li>
+                <li>
+                    <p>BTQ</p>
+                    <p>BAGUS NUSWANTORO</p>
+                </li>
+                <li>
+                    <p>dicky</p>
+                    <p>PANGGALIH B.R</p>
+                </li>
+                <li>
+                    <p>PAI</p>
+                    <p>TIDAK ADA</p>
+                </li>
+                <li>
+                    <p>Bahasa indonesia</p>
+                    <p>silvester oktaviano alvin manopo algak</p>
+                </li>
+                <li>
+                    <P>Ipas</P>
+                    <P>Tidak Ada</P>
+                </li>
+                <li>
+                    <p>Bimbingan Konseling</p>
+                    <p>panggalih bayu raka</p>
+                </li>
+                </ul>
+        </div>
+        <div class="album-kelas">
+            <div class="TextInContainer">
+                <h3>ALBUM KELAS</h3>
+                <p>HAII KAMI JUGA MEMILIKI ALBUM KELAS SENDIRI LOH KLICK DI BAWAH INI UNTUK MELIHAT ALBUM FOTO KAMI</p> 
+            </div>
+            <div class="fotoNyaSiswa">
+                <button onclick="fotosiswa()">foto siswa</button>
+                <br>
+                <div class="fotoDoang" id="fotoDoangBg">
+                    <img src="FOTONYA/pic1.jpg" alt="pic1" class="pic1">
+                    <img src="FOTONYA/fotoRameRame.jpg" alt="pic2" class="pic2">
+                    <img src="FOTONYA/pic3.jpg" alt="pic3" class="pic3">
+                </div>
+            </div>
+                <div class="HELLNAH">
+                    <h3>jadwal kelas</h3>
+                    <P>ini adalah web untuk melihat  jadwal kelas kami, semua jadwal ada di sini  </P>
+                    <button href="Jadwal.html">JADWAL</button>
+                </div>
+            </div>
+    </main>
    <footer>
-    <div class="report">
-        
+    <div class="report">      
+
     </div>
    </footer>
 </body>
 </html>
-<style>
-    /* Container untuk slideshow */
-    .slideshow-container {
-        position: relative;
-        max-width: 100%;
-        margin: auto;
-        overflow: hidden;
-    }
-
-    /* Setiap slide (gambar) */
-    .slide {
-        display: none;
-        width: 100%;
-        height: 800px; /* Atur tinggi slide */
-    }
-
-    /* Style untuk gambar */
-    .slide img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /* Tombol navigasi sebelah kiri dan kanan */
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-
-    /* Tombol sebelah kiri */
-    .prev {
-        left: 0;
-        border-radius: 3px 0 0 3px;
-    }
-
-    /* Tombol sebelah kanan */
-    .next {
-        right: 0;
-        border-radius: 0 3px 3px 0;
-    }
-
-    /* Animasi transisi */
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-    }
-
-    @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-    }
-</style>
-
 <script>
-    var slideIndex = 0;
-    showSlides(slideIndex);
+var slideIndex = 0;
+showSlides(slideIndex);
 
-    // Fungsi untuk mengubah slide
-    function changeSlide(n) {
-        showSlides(slideIndex += n);
+// Fungsi untuk mengubah slide
+function changeSlide(n) {
+    showSlides(slideIndex += n);
+}
+
+// Fungsi untuk menampilkan slide
+function showSlides(n) {
+    var slides = document.getElementsByClassName("slide");
+
+    if (n >= slides.length) { slideIndex = 0 }
+    if (n < 0) { slideIndex = slides.length - 1 }
+
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
 
-    // Fungsi untuk menampilkan slide
-    function showSlides(n) {
-        var slides = document.getElementsByClassName("slide");
+    slides[slideIndex].style.display = "block";
+}
 
-        if (n >= slides.length) { slideIndex = 0 }
-        if (n < 0) { slideIndex = slides.length - 1 }
-
-        for (var i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-
-        slides[slideIndex].style.display = "block";
-    }
-
-    // Fungsi auto-slide setiap 3 detik
-    setInterval(function() {
-        changeSlide(1);
-    }, 5000); // Set interval 3000ms (3 detik)
+// Fungsi auto-slide setiap 3 detik
+setInterval(function() {
+    changeSlide(1);
+}, 5000); // Set interval 3000ms (3 detik)
 </script>
