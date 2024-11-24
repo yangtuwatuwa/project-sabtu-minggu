@@ -13,6 +13,8 @@ header nav .dalamnav .paling-kiri {
 
   body{
     margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .dalamnav{
     display: flex;
@@ -32,7 +34,6 @@ header nav .dalamnav .paling-kiri {
           position: fixed; 
           width:100%;  
           justify-content: space-between;
-          border-radius: 20px;
           margin-right: 20px;
       }
   h1{
@@ -68,13 +69,13 @@ header nav .dalamnav .paling-kiri {
       display: none ;
       justify-content: center;
   }
-  
+   
   
   img:hover {
       /* Scale the image up slightly */
       transform: scale(1.2);
       /* Add a subtle shadow */
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 20px rgb(0, 0, 0);
        
       cursor: zoom-in;
   
@@ -111,12 +112,16 @@ header nav .dalamnav .paling-kiri {
       flex-direction: column;
       color: white;
       background-color: rgb(0, 0, 0);
-      float: left;
+      float: right;
+      width: 300px;
+      height: 100%;   
+      overflow: auto;
+      transition: all 4s;
       display: none;
+    
     }
-    .fotoDoang{
-      display: none;
-    }
+    
+    
     .kosongan{
       height: 6rem;
     width: 100%;
@@ -127,10 +132,7 @@ header nav .dalamnav .paling-kiri {
       background-color: #FFF0D1;
     }
   
-    .sideBar{
-      width:300px;
-      height: 100%;   
-    }
+  
     
     .sideBar p{
       margin: 10px;
@@ -145,6 +147,8 @@ header nav .dalamnav .paling-kiri {
   .Buttonside{
     border-color:none;
     overflow: none;
+    margin-left: 10px;
+    padding-left: 10px;
     
   }
   
@@ -216,3 +220,5 @@ header nav .dalamnav .paling-kiri {
     from {opacity: .4} 
     to {opacity: 1}
   }  
+
+  

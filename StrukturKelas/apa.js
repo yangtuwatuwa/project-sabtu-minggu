@@ -47,3 +47,5 @@ function side() {
         siide.style.display ="none"
     }
 }
+
+

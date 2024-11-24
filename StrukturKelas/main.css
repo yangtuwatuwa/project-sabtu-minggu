@@ -10,7 +10,18 @@ main h2{
   
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+ .fotoDoang img {
+  width: 50%;
+  gap :20px;
+  margin: 9svh;
+ }
+.fotoDoang{
+  width: 50%;
+  aspect-ratio: 10;
+  display: none;
  
+}
 main article img {
   width: 400px;
   
@@ -47,7 +58,7 @@ main article .text p .Pakrivaldi{
   background-color: yellow;
 }
 
-
+ 
 main .Struktur .wali-kelas{
   background-color: #3a2828;
 }
@@ -209,9 +220,8 @@ main .Struktur .sekka h3{
   justify-content:center;
 }
 .Struktur h2 {
-  text-decoration: underline;
-  
   font-size: 10rem;
+
 }
 .Struktur .tab{
   justify-content: center;
@@ -260,12 +270,48 @@ main .penanggung .ForMoreInfo{
 .album-kelas .fotoNyaSiswa{
   display: flex ;
   justify-content: center;
+  flex-direction: column;
 
 }
 
 .album-kelas .HELLNAH{
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+main img .pic1{
+  border: #fff;
+}
+
+main .fotoNyaSiswa button {
+  transition: all 1s;
+}
+main .fotoNyaSiswa button:hover{
+  transition:all 2s;
+  transform: rotate(#ffffff);
+  width: 100%;
+  color:white;
+}
+
+body .Struktur .pejeh h2:hover{
+  text-decoration: underline;
+  transition: all 2s ;
+}
+
+body .Struktur .pejeh h2{
+  text-decoration: none;
+  transition: all 2s;
+}
+
+body .Struktur .pejeh {
+  transition: all 1s;
+
+}
+
+body .Struktur .pejeh:hover{
+  transition: all 1s;
+  font-size: small;
 }

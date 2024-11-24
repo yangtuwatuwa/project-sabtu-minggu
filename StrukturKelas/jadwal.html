@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jadwal</title>
+    <style>
+        #text {
+    opacity: 0; /* Mulai dengan teks tidak terlihat */
+    transition: opacity 1s ease; /* Efek transisi untuk opacity */
+}
+
+#text.visible {
+    opacity: 1; /* Teks menjadi terlihat */
+}
+    </style>
 </head>
 <body>
-    
+     <h1>HALLO WARGA PPLG 2</h1>
+     <div id="text" class="hidden">Teks yang akan muncul</div>
+<button id="showTextBtn">Tampilkan Teks</button>
 </body>
 </html>
+<script>
+    document.getElementById('showTextBtn').addEventListener('click', function() {
+    const textElement = document.getElementById('text');
+    textElement.classList.add('visible'); // Tambahkan kelas untuk memunculkan teks
+});
+</script>
